@@ -27,6 +27,7 @@ public enum Platform {
     FABRIC("Fabric", PlatformType.SERVER),
     NEO_FORGE("NeoForge", PlatformType.SERVER),
     BUNGEE_CORD("BungeeCord", PlatformType.PROXY),
+    DANPROXY("DanProxy", PlatformType.PROXY),
     VELOCITY("Velocity", PlatformType.PROXY);
 
     private final String friendlyName;
